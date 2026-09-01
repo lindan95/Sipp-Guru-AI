@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix SIPP Guru AI - Perangkat Pembelajaran \u0026 Administrasi Guru",
+  "description": "Web App Perangkat Pembelajaran Guru berbasis AI untuk single user. Terintegrasi manajemen CP, ATP, Modul Ajar, LKPD, Asesmen Diagnosis, Bank Soal, Absensi, Penilaian, serta integrasi Google Sheets \u0026 Google Apps Script.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

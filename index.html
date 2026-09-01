@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIPP Guru AI - Perangkat Pembelajaran & Administrasi Guru</title>
+    <meta name="description" content="Web App Perangkat Pembelajaran Guru berbasis AI untuk single user. Terintegrasi manajemen CP, ATP, Modul Ajar, LKPD, Asesmen Diagnosis, Bank Soal, Absensi, Penilaian, serta integrasi Google Sheets & Google Apps Script." />
+    <meta property="og:title" content="SIPP Guru AI - Perangkat Pembelajaran & Administrasi Guru" />
+    <meta property="og:description" content="Web App Perangkat Pembelajaran Guru berbasis AI untuk single user. Terintegrasi manajemen CP, ATP, Modul Ajar, LKPD, Asesmen Diagnosis, Bank Soal, Absensi, Penilaian, serta integrasi Google Sheets & Google Apps Script." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+      @media print {
+        body {
+          background: white !important;
+          color: black !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .print-only {
+          display: block !important;
+        }
+        .page-break {
+          page-break-after: always;
+          break-after: page;
+        }
+        @page {
+          size: A4;
+          margin: 1.5cm;
+        }
+      }
+    </style>
+  </head>
+  <body class="font-sans antialiased bg-slate-50 text-slate-900 selection:bg-blue-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
